@@ -3,7 +3,7 @@ name: Deploy to Modal (Stable)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'  # 每30分鐘觸發一次（保活）
+    - cron: '38 18 * * *'  # 每30分鐘觸發一次（保活）
 
 jobs:
   deploy:
